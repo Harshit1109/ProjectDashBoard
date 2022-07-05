@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url(../images/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.main h1 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    padding: 0.5em 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+/*form */
+
+.login-page{
+    clear: both;
+    margin: 0 auto;
+    width: 40%;
+    background: #eb5242;
+    text-align: center;
+}
+
+.register-form{
+    padding: 25px;
+    margin: 10px;
+}
+
+.form{
+    height: 80vh;
+}
+
+
+
+
+.form-label{
+    font-size: larger;
+    text-align: left;
+
+}
+
+.text{
+    width: 100%;
+    padding: 10px;
+}
+
+.sign-up {
+    padding: 1.2em 0;
+}
+
+.sign-up input[type="reset"] {
+    float: left;
+    background: #A12112;
+    padding: 0.8em 1.4em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sign-up input[type="submit"] {
+    float: right;
+    background: #A12112;
+    padding: 0.8em 1.4em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.form .login-form{
+    display: none;
+}
+
+
+.login-form{
+    position: relative;
+    top: 30px;
+}
+
+
+.login-text {
+    width: 90%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.login-label{
+    font-size: 1.5em;
+    text-align: left;
+    margin: 15px;
+}
+
+
